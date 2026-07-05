@@ -45,20 +45,7 @@ function getDb() {
   return db;
 }
 
-function closeDb() {
-  return new Promise((resolve, reject) => {
-    db.close((err) => {
-      if (err) {
-        reject(err);
-        return;
-      }
-      resolve();
-    });
-  });
-}
-
 module.exports = {
   initializeDatabase,
   getDb,
-  closeDb,
 };

@@ -16,8 +16,8 @@ POST /api/tickets
 Content-Type: application/json
 
 {
-  "student_name": "Amina",
-  "email": "amina@example.com",
+  "student_name": "Geetha",
+  "email": "geetha@example.com",
   "category": "Technical",
   "description": "Example request",
   "priority": "High"
